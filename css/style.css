@@ -4,14 +4,22 @@
 button {
     background-color: #707070;
     color: black;
-    opacity: 50%;
-    font-size: 16px;
-    padding: 30px;
+    opacity: 75%;
+    font-size: 14px;
+    padding: 20px;
     display: inline-block;
-    border-radius: 15%;
+    border-radius: 12px;
     width: 49%;
+    cursor: pointer;
 }
 
+h1 {
+    margin-top: 7%;
+    text-align: center;
+    color: white;
+    font-family: courier;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
 
 
 body {
@@ -19,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
     padding:0;
     margin:0;
 }
@@ -52,9 +61,57 @@ a:hover{
     color: burlywood
 }
 
-#knap
-    {
-    width: 60%;    
+
+#kaffeknap{
+        width: 25%;
         margin: 0 auto;
-        margin-top: 120px;
+        margin-top: 8%;
+        margin-left: 10%;
+        color: white;
+        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#Findknap {
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-left: 30%;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#menu {
+    list-style: none;
+    text-align: center;
+    color: black;
+    font-family: courier;
+    padding: 5px
+}
+
+#find{
+    margin-left: 10%;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    
+}
+
+h2 {
+    font-family: courier;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+footer {
+    text-align: center;
+    background-image: url(../images/footerback.jpeg);
+    background-size: contain;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
