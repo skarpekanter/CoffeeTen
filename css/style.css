@@ -1,0 +1,60 @@
+/**
+ * fil: css/style.css
+ **/
+button {
+    background-color: #707070;
+    color: black;
+    opacity: 50%;
+    font-size: 16px;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 15%;
+    width: 49%;
+}
+
+
+
+body {
+    background-image: url(../images/kop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+
+nav{
+    height: 60px;
+    background-color: #707070;
+    padding-top: 10px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    opacity: 65%;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+        
+}
+
+nav ul li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;    
+}
+
+
+a:hover{
+    color: burlywood
+}
+
+#knap
+    {
+    width: 60%;    
+        margin: 0 auto;
+        margin-top: 120px;
+}
