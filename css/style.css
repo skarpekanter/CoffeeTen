@@ -1,20 +1,14 @@
 /**
  * fil: css/style.css
  **/
-button {
-    background-color: #707070;
-    color: black;
-    opacity: 75%;
-    font-size: 14px;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 12px;
-    width: 49%;
-    cursor: pointer;
+#logo {
+    margin-left: 85px;
+    margin-top: -15px;
+    
 }
 
 h1 {
-    margin-top: 7%;
+    margin-top: 4%;
     text-align: center;
     color: white;
     font-family: courier;
@@ -23,7 +17,7 @@ h1 {
 
 
 body {
-    background-image: url(../images/kop.jpg);
+    background-image: url(../images/kaffekop.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -34,11 +28,11 @@ body {
 
 nav{
     height: 60px;
-    background-color: #707070;
+    background-color: white;
     padding-top: 10px;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    opacity: 65%;
+    opacity: 75%;
     
 }
 
@@ -53,7 +47,7 @@ nav ul{
 nav ul li a{
     margin-right: 50px;
     text-decoration: none;
-    color: white;    
+    color: black;    
 }
 
 
@@ -66,37 +60,29 @@ a:hover{
         width: 25%;
         margin: 0 auto;
         margin-top: 8%;
-        margin-left: 10%;
-        color: white;
-        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+        margin-left: 13%;
+        color: black;
 }
 
 #Findknap {
         width: 25%;
         margin: 0 auto;
-        margin-top: 8%;
-        margin-left: 30%;
-    color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+        margin-top: 27%;
+        margin-left: 24%;
+        color: black;        
 }
 
-#menu {
-    list-style: none;
-    text-align: center;
+button {
+    background-color: #fff;
     color: black;
-    font-family: courier;
-    padding: 5px
-}
-
-#find{
-    margin-left: 10%;
-}
-
-li {
-    list-style-type: none;
-    color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    
+    opacity: 75%;
+    font-size: 16px;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    width: 49%;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 h2 {
@@ -108,10 +94,11 @@ h2 {
 
 footer {
     text-align: center;
-    background-image: url(../images/footerback.jpeg);
-    background-size: contain;
+    background-color: #000;
+    opacity: 65%;
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
+    height: 70px
 }
