@@ -16,7 +16,7 @@ h1 {
 }
 
 
-body {
+body.index {
     background-image: url(../images/kaffekop.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,6 +25,16 @@ body {
     padding:0;
     margin:0;
 }
+body.findos {
+    background-image: url(../images/findosback.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding:0;
+    margin:0;
+}
+
 
 nav{
     height: 60px;
@@ -101,4 +111,25 @@ footer {
     left: 0px;
     right: 0px;
     height: 70px
+}
+
+#boks {
+    display: inline-flex;
+    height: 400px;
+    
+}
+#findmap {
+    margin-left: 15%;
+    display: flex;
+    width: 34%;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+#mapboks {
+    margin-left: 15%;
+    display: flex;
+    height: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
