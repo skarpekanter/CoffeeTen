@@ -6,16 +6,6 @@
     margin-top: -15px;
     
 }
-
-h1 {
-    margin-top: 4%;
-    text-align: center;
-    color: white;
-    font-family: courier;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
-
-
 body.index {
     background-image: url(../images/kaffekop.png);
     background-repeat: no-repeat;
@@ -34,8 +24,17 @@ body.findos {
     padding:0;
     margin:0;
 }
+body.menu {
+    background-image: url(../images/structure.jpg);
+    padding:0;
+    margin:0;
+}
+#mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
+}
 nav{
     height: 60px;
     background-color: white;
@@ -45,7 +44,6 @@ nav{
     opacity: 75%;
     
 }
-
 nav ul{
     display: flex;
     list-style: none;
@@ -53,35 +51,27 @@ nav ul{
 
         
 }
-
 nav ul li a{
     margin-right: 50px;
     text-decoration: none;
     color: black;    
 }
-
-
 a:hover{
     color: burlywood
 }
-
-
-#kaffeknap{
-        width: 25%;
-        margin: 0 auto;
-        margin-top: 8%;
-        margin-left: 13%;
-        color: black;
+h1 {
+    margin-top: 4%;
+    text-align: center;
+    color: white;
+    font-family: courier;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
-
-#Findknap {
-        width: 25%;
-        margin: 0 auto;
-        margin-top: 27%;
-        margin-left: 24%;
-        color: black;        
+h2 {
+    font-family: courier;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
-
 button {
     background-color: #fff;
     color: black;
@@ -94,14 +84,52 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
-
-h2 {
-    font-family: courier;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+button:hover {
+    background-color: green;
 }
-
+#kaffeknap{
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-left: 13%;
+        color: black;
+}
+#Findknap {
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 27%;
+        margin-left: 24%;
+        color: black;        
+}
+#menuknap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#boks {
+    display: inline-flex;
+    height: 400px;   
+}
+#findmap {
+    margin-left: 15%;
+    display: flex;
+    width: 34%;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#mapboks {
+    margin-left: 15%;
+    display: flex;
+    height: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#menu {
+    width: 60%;
+    max-width: 800px;
+    border-radius: 30px;
+    margin-bottom: 20px;   
+}
 footer {
     text-align: center;
     background-color: #000;
@@ -111,25 +139,4 @@ footer {
     left: 0px;
     right: 0px;
     height: 70px
-}
-
-#boks {
-    display: inline-flex;
-    height: 400px;
-    
-}
-#findmap {
-    margin-left: 15%;
-    display: flex;
-    width: 34%;
-    border-radius: 50px;
-    box-sizing: border-box;
-}
-
-#mapboks {
-    margin-left: 15%;
-    display: flex;
-    height: auto;
-    border-radius: 50px;
-    box-sizing: border-box;
 }
