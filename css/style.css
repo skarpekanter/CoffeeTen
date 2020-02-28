@@ -29,11 +29,21 @@ body.menu {
     padding:0;
     margin:0;
 }
+body.billigbody {
+    background-image: url(../images/coffee-beans.jpg);
+    padding:0;
+    margin:0;
+}
+.billigmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 #mainmenu {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 nav{
     height: 60px;
@@ -64,12 +74,6 @@ h1 {
     text-align: center;
     color: white;
     font-family: courier;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
-h2 {
-    font-family: courier;
-    text-align: center;
-    color: white;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 button {
@@ -106,6 +110,12 @@ button:hover {
     text-align: center;
     margin-bottom: 150px;
 }
+#billigknap {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
 #boks {
     display: inline-flex;
     height: 400px;   
@@ -128,7 +138,32 @@ button:hover {
     width: 60%;
     max-width: 800px;
     border-radius: 30px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px; 
+    border: solid;
+}
+#coffeestory {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+#coffeestory p {
+    width: 35%;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    margin: 0;    
+}
+#video {
+    width: 50%;
+    height: 300px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
 }
 footer {
     text-align: center;
