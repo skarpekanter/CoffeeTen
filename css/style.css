@@ -39,6 +39,11 @@ body.billigbody {
     flex-direction: column;
     align-items: center;   
 }
+body.kontaktbody {
+    background-image: url(../images/structure.jpg);
+    padding: 0;
+    margin: 0;
+}
 nav{
     height: 60px;
     background-color: white;
@@ -69,6 +74,12 @@ h1 {
     color: white;
     font-family: courier;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+h2 {
+    color: white;
+    font-family: courier;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-left: 10%;
 }
 button {
     background-color: #fff;
@@ -159,8 +170,12 @@ button:hover {
     justify-content: center;
     align-items: center;
     color: white;
-
 }
+
+#emailboks {
+    margin-left: 10%;    
+}
+
 footer {
     text-align: center;
     background-color: #000;
