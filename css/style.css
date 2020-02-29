@@ -141,7 +141,7 @@ button:hover {
     box-sizing: border-box;
 }
 #menu {
-    width: 60%;
+    width: 50%;
     max-width: 800px;
     border-radius: 30px;
     margin-bottom: 20px;
