@@ -172,7 +172,13 @@ button:hover {
     color: white;
 }
 #emailboks {
+    border-radius: 15px;
     margin-left: 10%;    
+    font: 17px arial, sans-serif;
+    margin-right:65%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    opacity:75%    
 }
 footer {
     text-align: center;
